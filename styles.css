@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -7,15 +6,14 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+
   line-height: 1.5;
 
   --primary-text-color: #181820;
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
   --icon-color: #6a737d;
-  --border-color: #3183ff45;
-  --text-decoration-color: #3183ff45;
+
 }
 
 .container {
