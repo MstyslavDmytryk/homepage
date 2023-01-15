@@ -10,6 +10,13 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
 
+  background: linear-gradient(
+    90deg,
+    rgba(0, 190, 255, 1) 0%,
+    rgba(0, 188, 212, 1) 50%,
+    rgba(136, 130, 238, 1) 100%
+  );
+
   --primary-text-color: #181820;
   --secondary-text-color: #5c5c62;
   --durability-text-color: #6a737d9c;
@@ -37,11 +44,12 @@ body {
 }
 
 .resume {
-  margin: 50px auto;
+  margin: 30px auto;
   border: 1px solid #f5f5f5;
-  box-shadow: 1px 1px 7px 7px #f5f5f5;
+  border-radius: 25px;
   padding: 30px 0;
   max-width: 900px;
+  background: #f5f5f5;
 }
 
 .resume__block {
@@ -166,7 +174,8 @@ body {
 
 .skills__text {
   color: var(--secondary-text-color);
-  text-align: justify;
+  text-align: center;
+  font-size: 21px;
 }
 
 .experiences {
